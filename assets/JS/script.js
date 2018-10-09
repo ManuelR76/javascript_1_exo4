@@ -6,7 +6,7 @@ var lastname = document.getElementById("lastname").value;
 var firstname = document.getElementById("firstname").value;
 var city = document.getElementById("city").value;
 var regex = /^[a-zA-ZÂ-ÿ- ]+$/;
-if (regex.test(lastname)){
+if (regex.test(lastname)) && (regex.text(firstname)) && (regex.text(city)){
     alert("Nom : " + lastname  + "\nPrénom : " + firstname + "\nVille : " + city);
     } else {
       alert("Saisie incorrecte");
